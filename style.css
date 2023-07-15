@@ -1,0 +1,86 @@
+/* work sense font from google sense */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Roboto:ital,wght@1,300&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+  font-family: 'Open Sans', sans-serif;
+
+}
+/* header styles */
+header{
+  background-color: rgba(255, 144, 14, 0.10);
+  padding: 50px 240px;
+ 
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+}
+nav > ul {
+  display: flex;
+}
+nav li{
+  list-style: none;
+  margin-right: 30px;
+}
+nav li a{
+  text-decoration: none;
+  color: #424242;
+}
+.nav-title{
+  color: var(--dark-01, #131313);
+font-size: 2.8rem;
+font-weight: 700;
+}
+/* banner section */
+.banner-content{
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-title{
+  font-size: 4rem;
+  font-weight: 700;
+  color: #131313;
+}
+.banner-discription{
+  color: #727272;
+}
+.btn-primary{
+  border-radius: 8px;
+background: #FF900E;
+/* width: 180px;
+height: 64px; */
+color: #FFF;
+font-size: 1.25rem;
+font-weight: 600;
+padding: 20px 25px;
+cursor: pointer;
+border: 0;
+gap: ;
+}
+.banner-image{
+  width: 100%;
+margin-top: 20px;
+border-radius: 8px;
+background: url(<path-to-image>), lightgray 0px -94.291px / 100% 137.109% no-repeat;
+}
+/* responsive media quary */
+/* mobile devices */
+@media screen and (max-width:576px){
+  header{
+  
+  padding: 20px;
+}
+nav {
+  flex-direction: column;
+}
+/* tablet or medioum devices */
+@media screen and (min-width:960px) and (max-width:576px){
+  header{
+  
+  padding: 50px;
+}
+  nav{
+    flex-direction: column;
+  }
+}
